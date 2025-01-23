@@ -1,5 +1,7 @@
 # NAI_project
 
+! Project has been created in Google Colab so probaby it's best to launch it there 
+
 # CONTRIBUTOR :
 This project was created by Amelia Boszke (s27089)
 
@@ -13,7 +15,7 @@ The program was created as a final project on NAI at the Polish-Japanese Academy
 3. https://huggingface.co/Abhiram4/AnimeCharacterClassifierMark1 autorstwa Abhiram4
 
 # SETUP 
-Before starting work, download all the necessary libraries (if launched via collab, the libraries are already implemented) 
+Before starting work, download all the necessary libraries (if launched via collab, the libraries are already implemented in code) 
 
 ```!pip install transformers datasets huggingface_hub pillow torchvision numpy scikit-learn icrawler python-Levenshtein```
 
