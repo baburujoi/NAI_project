@@ -1,14 +1,19 @@
 # NAI_project
-Program powstał jako projekt zaliczeniowy z NAI na Polsko-Japońskiej Akademii Technik Komputerowych (filia w Gdańsku). Służy on do porównania działania 3 modeli języka ( clip, top_15_anime_characters_image_detection, AnimeCharacterClassifierMark1 ) na zbiorze 50 randomowo wylosowanych ,ze zbioru pobranych, obrazów postaci ze znanych anime tj. Eren Jeager, Naruto, Vegeta, Lelouch Lamperouge, Killua. Postacie zostały dobranie na podstawie postaci na których był uprzednio trenowany model top_15_anime_characters_image_detection - posiadał najmniejszy zestaw danych testowych.
 
-# UŻYTE MODELE :
+# CONTRIBUTOR :
+This project was created by Amelia Boszke (s27089)
+
+# DESCRIPTION :
+The program was created as a final project on NAI at the Polish-Japanese Academy of Information Technology. It is used to compare the performance of 3 language models (clip, top_15_anime_characters_image_detection, AnimeCharacterClassifierMark1) on a set of 50 randomly selected images of characters from famous anime, i.e. Eren Jeager, Naruto, Vegeta, Lelouch Lamperouge, Killua. The characters were selected based on the characters on which the top_15_anime_characters_image_detection model was previously trained - it had the smallest set of test data.
+
+# USED MODELS :
 
 1. CLIP
 2. https://huggingface.co/dima806/top_15_anime_characters_image_detection autorstwa dima806
 3. https://huggingface.co/Abhiram4/AnimeCharacterClassifierMark1 autorstwa Abhiram4
 
-# INSTALACJA BIBLIOTEK
-Przed przystąpieniem do pracy należy pobrać wszystkie potrzebne biblioteki
+# SETUP 
+Before starting work, download all the necessary libraries (if launched via collab, the libraries are already implemented) 
 
 ```!pip install transformers datasets huggingface_hub pillow torchvision numpy scikit-learn icrawler python-Levenshtein```
 
