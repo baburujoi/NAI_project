@@ -11,8 +11,8 @@ The program was created as a final project on NAI at the Polish-Japanese Academy
 # USED MODELS :
 
 1. CLIP
-2. https://huggingface.co/dima806/top_15_anime_characters_image_detection autorstwa dima806
-3. https://huggingface.co/Abhiram4/AnimeCharacterClassifierMark1 autorstwa Abhiram4
+2. https://huggingface.co/dima806/top_15_anime_characters_image_detection by dima806
+3. https://huggingface.co/Abhiram4/AnimeCharacterClassifierMark1 by Abhiram4
 
 # SETUP 
 Before starting work, download all the necessary libraries (if launched via collab, the libraries are already implemented in code) 
